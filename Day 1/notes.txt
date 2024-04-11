@@ -1,0 +1,55 @@
+HTML Elements - A bunch of text having seprate section
+HTML Tags - Used to create Elements
+Markup Language -Its like Make this txt bold, make this para,etc...
+<b> - bring attention to Tag(makes bold)
+<p> - make a paragraph
+Headings - <h1>---<h6>
+<h1> - don't use headings for sizing , have only 1 <h1> on a page
+use nested headings -> first only one h1, then, h2 inside h1 then, h3 inside h2 and so on....
+HTML Boilerplate/Skeleton - 
+<!Doctype...> - hey this is html5 file
+<html> - root element 
+lists - ul(<li>),ol(<li>)
+hyperlink - <a> anchor tag - href(attribute of anchor tag)
+/* all are closing tag, if its not mentioned */
+img tag - not a closing tag - used for putting image in webpage - src(location),alt(alternate txt) are the attribute (can have width,height in it but prefer CSS)
+comments - <!-- comment -->
+div,span - in comments of introduction.html
+hr - horizontal rule (not closed)
+br - break line (not closed)
+sup - superscript (power)
+sub - subscript (base)
+
+[Html entities] - code for special characters
+< - &lt;
+> - &gt;  gooogle for others
+
+[Semantic Markup] - meaningful markup(code) - use meaningful tags like stripe webpage not just div like medium webpage
+- better - for SEO and search engines - for screen readers - for diff browsers 
+<main> - main content of page
+<nav> - navigation links 
+<section> - chunks of content
+<article> - used on independent content of page which is full in itself
+<aside> - sidebars and partialy related content
+<header>- intro/top ,<footer> - foot of page
+<time> - inline - time/date - datetime attribute
+<figure> - used with <figcaption> - adds caption
+----- refer to MDN for more ;) -----
+emmet abbreviation - time saver (sigh...)
+e.g. nav>ul>li
+> - child
++ - same level
+^ - climb up
+* - multiply
+$ - numbering - loop run each time value = 1,2,3,...
+tag[attribute]
+
+-section 4  completed(just for me...hehe..)
+
+*** Shortcuts ***
+PgUp - top left 
+PgDn - bottom left
+! + Enter - Html Boilerplate
+Ctrl + / - comments
+Shift + Alt + DnArrow
+
