@@ -1,3 +1,5 @@
+HTML section - ALL HTML here in Day1
+
 HTML Elements - A bunch of text having seprate section
 HTML Tags - Used to create Elements
 Markup Language -Its like Make this txt bold, make this para,etc...
