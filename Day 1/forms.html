@@ -54,6 +54,62 @@
         </p>
     </form>
     <!-- using checkbox and radio type inputs -->
+    <form action="/inputs">
+        <input type="checkbox" name="agree_tos" id="agree">
+        <label for="agree">1st Checkbox</label>
+        <input type="checkbox" name="agree_hehe" id="agree2" checked>
+        <label for="agree2">2nd Checkbox</label>
+
+    </form>
+    <form action="/radio">
+        <p>
+            <label for="xs">XS:</label>
+            <input type="radio" name="same_val" id="xs" value="extra_small">
+        </p>
+        <p><label for="s">S:</label>
+            <input type="radio" name="same_val" id="s" value="extra_small">
+        </p>
+        <p><label for="m">M:</label>
+            <input type="radio" name="same_val" id="m" value="medium">
+        </p>
+        </p>
+        <button>Submit</button>
+    </form>
+
+    <!-- select and option -->
+    <label for="select">
+        Select a Number:
+    </label>
+    <select name="num" id="select">
+        <option value="one">One</option>
+        <option value="two">Two</option>
+        <option value="three" selected>Three</option>
+    </select>
+    <h3>Other inputs
+    </h3>
+    <form action="range">
+        <p>
+            <label for="cheese">Amount of cheese:</label>
+            <input type="range" name="amount_of_cheese" id="cheese" min="1" max="10" step="2">
+            <!-- min, max, step can be used in text and other inputs too -->
+        </p>
+        <p>
+            <label for="and">Anything Else:</label><br>
+            <textarea name="sp_text" id="and" cols="15" rows="5" placeholder="Type here!!!"></textarea>
+        </p>
+        <button>Submit</button>
+    </form>
+    <!-- validations in form-->
+    <h3>Validations Demo</h3>
+    <form action="/dummy">
+        <label for="first">Enter first name</label>
+        <input type="text" name="firstname" id="first" required>
+        <label for="username2">Enter first name</label>
+        <input type="text" name="username2" id="username2" minlength="8" maxlength="50" required>
+        <input type="url" name="" id="">
+        <!-- pattern can be set for password or else -->
+        <button>submit</button>
+    </form>
 </body>
 
 </html>
