@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+    <form action="/search" method="get">
+        <!-- action - where my data is sent url - syntax after search- url+?+"action"+name+=+value-->
+        <!-- label - connection btw inputs in form -->
+        <p><label for="user">enter a username:</label>
+            <!-- for and id should be same for connection -->
+            <input id="user" type="text" placeholder="Enter any text" name="hehe">
+        </p>
+        <!-- placeholder = just show when nothing in input -->
+        <!-- input doesnt have a closing tag -->
+        <p><label for="password">password:</label>
+            <!-- other way of writing label and connecting but not preffered much -->
+            <input id="password" type="password">
+        </p>
+        <p><label>Color: <input type="color" name="color" id=""></label></p>
+        <p><label for="number">Enter Number: </label><input type="number" name="num" id="number"></p>
+        <p>
+            <button>Submit</button>
+            <!-- submits the form if inside <form></form> but nothing when outside (no default behaviour) -->
+        </p>
+        <p><input type="submit" name="" value="Submit !!!"></p>
+        <p></p>
+    </form>
+
+    <!-- Form DEMO 1 - Search Google -->
+    <h3>Reddit Hijack</h3>
+    <form action="https://www.reddit.com/search">
+        <p>
+            <input type="text" name="q" id="">
+            <button>Search Reddit</button>
+        </p>
+    </form>
+    <h3>Google Search</h3>
+    <form action="https://www.google.com/search">
+        <p>
+            <input type="text" name="q" id="">
+            <input type="submit" name="" value="Search Google">
+        </p>
+    </form>
+    <h3>Youtube Search</h3>
+    <form action="https://www.youtube.com/results">
+        <p>
+            <input type="text" name="search_query" id="">
+            <input type="submit" name="" value="Search YouTube">
+        </p>
+    </form>
+    <!-- using checkbox and radio type inputs -->
+</body>
+
+</html>

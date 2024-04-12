@@ -46,6 +46,9 @@ tag[attribute]
 
 -section 4  completed(just for me...hehe..)
 
+form - takes input from the user
+form - forms.html
+
 *** Shortcuts ***
 PgUp - top left 
 PgDn - bottom left
